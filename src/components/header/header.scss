@@ -1,0 +1,62 @@
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem;
+    background: #060606;
+    color: white;
+}
+.search{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    svg{
+        position: relative;
+        left: 30px;
+    }
+    input{
+        outline: none;
+        padding: 8px;
+        border-radius: 8px;
+    }
+    input::placeholder{
+        padding-left: 20px;
+    }
+}
+.leftheader{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 10px;
+}
+.rightheader{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+}
+.button{
+    padding: 8px;
+    border-radius: 8px;
+    outline: none;
+    border: none;
+    background: #060606;
+    border: 2px solid gray;
+    color: gray;
+}
+.newfolderbutton{
+    padding: 1px;
+    border-radius: 8px;
+    outline: none;
+    border: none;
+    background: #060606;
+    border: 2px solid gray;
+    color: gray;
+}
+.inner{
+    padding: 8px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 5px;
+}
